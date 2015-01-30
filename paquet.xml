@@ -1,0 +1,23 @@
+<paquet
+	prefix="auteur2zone"
+	categorie="auteur"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.16;3.0.*]"
+	logo="prive/themes/spip/images/auteur2zone-64.png"
+	documentation=""
+>
+	<!--
+		Paquet genere le 2014-07-03 12:49:09
+	-->
+
+	<nom>Auteur2Zone</nom>
+
+	<auteur lien='http://www.vertige.org'>vertige</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<pipeline nom="post_insertion" inclure="auteur2zone_pipelines.php" />
+        <necessite nom="accesrestreint" compatibilite="[3.8.12;]" />
+
+</paquet>
