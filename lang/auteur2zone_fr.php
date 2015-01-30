@@ -18,7 +18,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
     // Formulaire de configuration
     'label_zone_inscription' => "Zone à utiliser pour l'inscription",
-    'explication_zone_inscription' => "Les nouveaux auteurs seront directement affecter à cette zone"
+    'explication_zone_inscription' => "Les nouveaux auteurs seront directement affectés à cette zone."
 
 );
 
