@@ -17,6 +17,13 @@ function formulaires_configurer_auteur2zone_saisies_dist() {
 }
 
 function formulaires_configurer_auteur2zone_charger_dist() {
+
+    include_spip('inc/config');
     $config = lire_config('auteur2zone');
+
+    if (is_null($config)) {
+        $config = array();
+    }
+
     return $config;
 }
