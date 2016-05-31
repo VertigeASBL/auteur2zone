@@ -9,6 +9,16 @@ function formulaires_configurer_auteur2zone_saisies_dist() {
                 'label' => _T('auteur2zone:label_zone_inscription'),
                 'explication' => _T('auteur2zone:explication_zone_inscription')
             )
+        ),
+        array(
+            'saisie' => 'radio',
+            'options' => array(
+                'nom'   =>  'autoriser_visiteur',
+                'label' =>  _T('auteur2zone:label_autoriser_visiteur'),
+                'explication' => _T('auteur2zone:explication_autoriser_visiteur'),
+                'datas' => array(true => 'oui',false => 'non'),
+                'defaut' => 'non',
+            )
         )
     );
 
